@@ -12,11 +12,11 @@ public class SpringJenkinsApplication {
 	public static Logger logger=LoggerFactory.getLogger(SpringJenkinsApplication.class);
 	@PostConstruct
 	public void init() {
-		logger.info("Application started...");
+		logger.info("APPLICATION STARTED...");
 	}
 
 	public static void main(String[] args) {
-		logger.info("Application executed...");
+		logger.info("APPLICATION EXECUTED...");
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
 
